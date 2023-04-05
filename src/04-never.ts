@@ -1,3 +1,5 @@
+// never type: Se usa para funciones en las que nunca termina su ejecución o lanzan un error en algún momento de su ejecución
+
 const  withoutEnd = () => { //función que nunca para al ejecutarse
   while(true){
     console.log('hola');

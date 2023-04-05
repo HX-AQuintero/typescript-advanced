@@ -1,3 +1,4 @@
+//any type
 let anyVar: any;
 anyVar = true;
 anyVar = undefined;
@@ -39,5 +40,3 @@ const parse = (str: string): unknown => {
 if(typeof unknownVar === 'boolean'){
   let isNew2: boolean = unknownVar
 }
-
-
